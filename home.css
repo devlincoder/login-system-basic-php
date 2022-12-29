@@ -1,0 +1,40 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container a {
+  margin-top: 20px;
+  text-decoration: none;
+  border: none;
+  background-color: #f95959;
+  font-size: 25px;
+  padding: 10px;
+  color: #233142;
+  border-radius: 10px;
+}
+
+.container p {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #233142;
+}
+
+.container button {
+  margin-top: 20px;
+  text-decoration: none;
+  border: none;
+  background-color: #f95959;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
